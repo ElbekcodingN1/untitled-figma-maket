@@ -1,0 +1,600 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&family=Permanent+Marker&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Permanent Marker", cursive;
+  background-color: white;
+}
+
+.content {
+  width: 100%;
+  background: var(--palet-32, #71D);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1098px;
+  background: var(--palet-32, #71D);
+}
+.container .logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 19px;
+  padding-bottom: 163px;
+  cursor: pointer;
+}
+.container .logo .icons {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .logo .icons .camburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 5px;
+  width: 49px;
+  height: 47.5px;
+  background-color: white;
+  border-radius: 50%;
+  transition: 0.5s;
+  cursor: pointer;
+  filter: drop-shadow(0px 3px 0px #202020);
+}
+.container .logo .icons .camburger .line_1 {
+  width: 20px;
+  height: 2px;
+  background-color: black;
+}
+.container .logo .icons .camburger .line_2 {
+  width: 20px;
+  height: 2px;
+  background-color: black;
+}
+.container .logo .icons .camburger .line_3 {
+  width: 20px;
+  height: 2px;
+  background-color: black;
+}
+
+.wrapper {
+  width: 100%;
+  height: 535px;
+  background: var(--palet-32, #71D);
+}
+
+.container_main {
+  margin: 0 auto;
+  max-width: 1098px;
+  background: var(--palet-32, #71D);
+}
+.container_main .main_info .main_text {
+  height: 535px;
+  display: flex;
+  justify-content: space-between;
+}
+.container_main .main_info .main_text h1 {
+  color: #FFF;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 75.5px;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+.container_main .main_info .main_text p {
+  max-width: 420px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.45px;
+  margin-bottom: 50px;
+}
+.container_main .main_info .main_text a {
+  text-decoration: none;
+}
+.container_main .main_info .main_text a button {
+  gap: 9px;
+  border-radius: 10px;
+  padding: 11px 32px;
+  display: flex;
+  align-items: center;
+  color: #1C1C1D;
+  border-bottom: 6px solid black;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 100%;
+  letter-spacing: 0.45px;
+  cursor: pointer;
+}
+.container_main .main_info .main_text .btn {
+  display: flex;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+  cursor: pointer;
+}
+.container_main .main_info .bg_img {
+  max-width: 600px;
+  transform: translateY(-170px);
+}
+.container_main .main_info .bg_img img {
+  width: 700px;
+}
+.container_main .cards_1 {
+  background-color: white;
+  padding-top: 80px;
+}
+.container_main .cards_1 .text h2 {
+  color: #1C1C1D;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 48.5px;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+.container_main .cards_1 .text .p_tag {
+  margin: 0 auto;
+  max-width: 501px;
+  margin-bottom: 60px;
+}
+.container_main .cards_1 .text .p_tag p {
+  color: #474A57;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.45px;
+}
+.container_main .cards_1 .text .oval {
+  margin: 50px auto;
+  width: 183px;
+  height: 18px;
+}
+.container_main .cards_1 .card {
+  display: flex;
+  justify-content: space-between;
+}
+.container_main .cards_1 .card .nisi_card {
+  width: 340px;
+  height: 183px;
+  background-color: #FA6648;
+  border-radius: 15px;
+  border-bottom: 5px solid black;
+}
+.container_main .cards_1 .card .nisi_card .card_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.container_main .cards_1 .card .nisi_card .card_info h4 {
+  margin-top: 25px;
+  max-width: 173px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.5px;
+}
+.container_main .cards_1 .card .nisi_card .card_info img {
+  margin-top: 25px;
+}
+.container_main .cards_1 .card .nisi_card p {
+  margin: 16px 20px;
+  max-width: 297px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.5px;
+}
+.container_main .cards_1 .card .bg {
+  background-color: #FFB0BC;
+}
+.container_main .cards_1 .card .yellow {
+  background-color: #FFBD12;
+}
+
+.content_main {
+  margin-top: 150px;
+}
+.content_main h2 {
+  color: #1C1C1D;
+  text-align: center;
+  font-family: Permanent Marker;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 48.5px;
+  letter-spacing: 2px;
+  margin-bottom: 58px;
+}
+
+.cards_stories {
+  padding-bottom: 120px;
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+.cards_stories .item_card .stories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 380px;
+  height: 264px;
+  border-radius: 15px;
+  background-color: #1BDBC4;
+  border-bottom: 5px solid black;
+  margin-bottom: 25px;
+}
+.cards_stories .item_card .grenn {
+  background-color: #962EFF;
+}
+.cards_stories .item_card h3 {
+  color: #1C1C1D;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.625px;
+}
+.cards_stories .item_card p {
+  max-width: 374px;
+  color: #474A57;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.45px;
+}
+.cards_stories .item_card .num {
+  color: #1C1C1D;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 145.4%;
+  letter-spacing: 0.5px;
+}
+
+.card_info_chose .text_your p {
+  margin-top: 80px;
+  color: #474A57;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 145.4%;
+  letter-spacing: 0.5px;
+}
+.card_info_chose .text_your h2 {
+  margin-top: 15px;
+  color: #1C1C1D;
+  text-align: center;
+  font-family: Permanent Marker;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 48.5px;
+  letter-spacing: 2px;
+}
+.card_info_chose .text_your .btn {
+  display: flex;
+  justify-content: center;
+}
+.card_info_chose .text_your .btn a .btn_month {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 14px 40px;
+  box-shadow: 0px 2px 0px 0px #202020;
+  color: #1C1C1D;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.625px;
+  transition: 0.5s;
+}
+.card_info_chose .text_your .btn a .btn_month:hover {
+  background-color: darkgray;
+  color: white;
+  cursor: pointer;
+}
+.card_info_chose .text_your .btn a .btn_year {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 14px 40px;
+  box-shadow: 0px 2px 0px 0px #202020;
+  color: #1C1C1D;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.625px;
+  transition: 0.5s;
+}
+.card_info_chose .text_your .btn a .btn_year:hover {
+  background-color: darkgray;
+  color: white;
+  cursor: pointer;
+}
+.card_info_chose .cards_item {
+  max-width: 1200px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.card_info_chose .cards_item .free_plan {
+  width: 278px;
+  height: 411px;
+  flex-shrink: 0;
+  background-color: #F95A2C;
+  border-radius: 15px;
+  border: 2px solid black;
+  border-bottom: 6px solid black;
+}
+.card_info_chose .cards_item .free_plan .free_p {
+  padding: 30px 0px 10px 30px;
+  color: #1C1C1D;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 145.4%;
+  letter-spacing: 0.5px;
+}
+.card_info_chose .cards_item .free_plan h3 {
+  padding-left: 30px;
+  color: #1C1C1D;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0.45px;
+  padding-bottom: 30px;
+}
+.card_info_chose .cards_item .free_plan .text_pro {
+  padding: 10px 0px 0px 30px;
+  color: #1C1C1D;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 145.4%;
+  letter-spacing: 0.5px;
+}
+.card_info_chose .cards_item .free_plan a button {
+  margin: 30px 0px 0px 30px;
+  border-radius: 15px;
+  width: 217px;
+  height: 51.111px;
+  border-bottom: 4px solid black;
+  color: #1C1C1D;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 100%;
+  letter-spacing: 0.45px;
+  transition: 0.5s;
+}
+.card_info_chose .cards_item .free_plan a button:hover {
+  background-color: darkgray;
+  color: white;
+  cursor: pointer;
+}
+.card_info_chose .cards_item .yellosh {
+  background-color: #1BDBC4;
+}
+.card_info_chose .cards_item .blue {
+  background-color: #962EFF;
+}
+.card_info_chose .cards_item .matviy {
+  background-color: #FFBD12;
+}
+
+.login_page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 163px;
+  margin-bottom: 80px;
+}
+.login_page .dowload h1 {
+  max-width: 502px;
+  color: #1C1C1D;
+  font-family: Permanent Marker;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 48.5px;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+}
+.login_page .dowload p {
+  max-width: 399px;
+  color: #474A57;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.45px;
+  margin-bottom: 50px;
+}
+.login_page .dowload .btn_white {
+  display: flex;
+  align-items: center;
+  gap: 29px;
+}
+.login_page .dowload .btn_white a {
+  text-decoration: none;
+}
+.login_page .dowload .btn_white a button {
+  gap: 9px;
+  border-radius: 10px;
+  padding: 11px 32px;
+  display: flex;
+  align-items: center;
+  background-color: #FA6648;
+  color: white;
+  border-bottom: 6px solid black;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 100%;
+  letter-spacing: 0.45px;
+  cursor: pointer;
+}
+.login_page .login_info {
+  margin-right: 102px;
+  width: 483px;
+  height: 541px;
+  border: 2px solid black;
+  border-bottom: 5px solid black;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.login_page .login_info .login_text {
+  display: flex;
+  gap: 19px;
+}
+.login_page .login_info .login_text .sign {
+  margin: 40px 0px 0px 40px;
+  color: #FA6648;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.625px;
+}
+.login_page .login_info .login_text .log {
+  margin-top: 40px;
+  color: #1C1C1D;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.625px;
+}
+.login_page .login_info .input_type input {
+  outline: none;
+  margin: 25px 0px 0px 40px;
+  padding-left: 20px;
+  border-radius: 10px;
+  border-bottom: 3px solid black;
+  width: 403px;
+  height: 50.653px;
+  color: #1C1C1D;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 145.4%;
+  letter-spacing: 0.5px;
+}
+.login_page .login_info .checkbox_item {
+  margin: 22px 0px 0px 40px;
+  display: flex;
+  gap: 15px;
+}
+.login_page .login_info .checkbox_item input {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+.login_page .login_info .checkbox_item p {
+  color: #474A57;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 145.4%;
+  letter-spacing: 0.5px;
+}
+.login_page .login_info a button {
+  margin: 30px 0px 0px 40px;
+  width: 403px;
+  height: 50px;
+  background-color: #FA6648;
+  border-radius: 10px;
+  border-bottom: 4px solid black;
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 100%;
+  letter-spacing: 0.45px;
+  transition: 0.5s;
+}
+.login_page .login_info a button:hover {
+  background-color: darkorange;
+  cursor: pointer;
+}
+
+.wrapper_footer {
+  width: 100%;
+  background: var(--palet-32, #71D);
+}
+.wrapper_footer .container_footer {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-top: 42px;
+  padding-bottom: 42px;
+  background: var(--palet-32, #71D);
+}
+.wrapper_footer .container_footer .logo_img {
+  display: flex;
+  align-items: center;
+  gap: 226px;
+}
+.wrapper_footer .container_footer .logo_img .a_text {
+  display: flex;
+}
+.wrapper_footer .container_footer .logo_img .a_text a {
+  margin-right: 35px;
+  text-decoration: none;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.5px;
+}
+.wrapper_footer .container_footer .logo_img .btn_white {
+  display: flex;
+  align-items: center;
+  gap: 29px;
+}
+.wrapper_footer .container_footer .logo_img .btn_white a {
+  text-decoration: none;
+}
+.wrapper_footer .container_footer .logo_img .btn_white a button {
+  gap: 9px;
+  border-radius: 10px;
+  padding: 11px 32px;
+  display: flex;
+  align-items: center;
+  background-color: #FFBD12;
+  color: white;
+  border-bottom: 5px solid black;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 100%;
+  letter-spacing: 0.45px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
